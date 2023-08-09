@@ -1,0 +1,40 @@
+******************** PASOS A SEGUIR ANTES DE EJECUTAR EL CODIGO ********************
+INSTALAR LA LIBRERIA:
+Abre el CMD en modo ADMIN, luego coloca este comando:
+
+* pip install python-nmap
+
+-----------------------------------------------------------------------------------------
+
+INSTALAR NMAP EN EL PC:
+
+Instala Nmap: Asegúrate de tener Nmap instalado en tu sistema. 
+Puedes descargarlo e instalarlo desde el sitio oficial de Nmap: 
+
+https://nmap.org/download.html
+
+------------------------------------------------------------------------------------------
+
+AÑADE NMAP AL PATH: 
+
+Encuentra la Ruta de Instalación de Nmap: 
+Primero, debes encontrar la ubicación donde has instalado Nmap en tu sistema. 
+Por lo general, en sistemas Windows, la ruta será similar a C:\Program Files (x86)\Nmap.
+
+--------------------------------------------------------------------------------------------
+Agregar la Ruta al PATH:
+
+En Windows 10:
+Haz clic derecho en el botón de "Inicio" y selecciona "Sistema".
+
+En la ventana de configuración del sistema, selecciona "Configuración avanzada del sistema".
+
+En la pestaña "Avanzado", haz clic en el botón "Variables de entorno".
+
+En la sección "Variables del sistema", selecciona la variable "Path" y haz clic en "Editar".
+
+Haz clic en "Nuevo" y agrega la ruta completa de la instalación de Nmap (por ejemplo, C:\Program Files (x86)\Nmap).
+
+Haz clic en "Aceptar" para cerrar todas las ventanas.
+
+Reinicia Visual Studio Code: Si tienes Visual Studio Code abierto, asegúrate de cerrarlo y volver a abrirlo para que los cambios en el PATH surtan efecto.
